@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing for Tijuana Dentists | Daniel Aviles</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://placehold.co/32x32/059669/FFFFFF?text=DA" type="image/png">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero-gradient-dental {
+            background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+        }
+        /* Style for the active language button */
+        .lang-btn.active {
+            background-color: #059669; /* emerald-600 */
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white py-3 px-6 md:px-12 flex justify-between items-center sticky top-0 z-10 shadow-sm">
+        <div class="font-bold text-xl text-emerald-700">Daniel Aviles</div>
+        <div class="flex items-center">
+            <!-- Language Switcher -->
+            <div class="border border-gray-300 rounded-lg p-1 mr-4 flex text-sm">
+                <button id="lang-en" class="lang-btn active px-2 py-1 rounded-md">EN</button>
+                <button id="lang-es" class="lang-btn px-2 py-1 rounded-md">ES</button>
+            </div>
+            <a href="#cta" class="bg-emerald-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-emerald-700 transition-colors duration-300 text-sm md:text-base lang-en">Book a Call</a>
+            <a href="#cta" class="bg-emerald-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-emerald-700 transition-colors duration-300 text-sm md:text-base lang-es hidden">Agendar Sesión</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero-gradient-dental">
+        <section class="text-center py-20 px-6">
+            <!-- English Content -->
+            <div class="lang-en">
+                <h1 class="text-4xl md:text-6xl font-black text-gray-900 leading-tight max-w-4xl mx-auto">
+                    Stop waiting for walk-ins. <br class="hidden md:block"> Fill your chairs with high-value patients from California.
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 mt-6 max-w-3xl mx-auto">
+                    We implement a specialized marketing system for Tijuana dentists to attract a steady flow of American patients seeking high-value treatments like implants, veneers, and orthodontics.
+                </p>
+                <a href="https://calendly.com/prometheus-ia/30min" target="_blank" class="mt-10 inline-block bg-emerald-600 text-white font-bold py-4 px-10 rounded-lg text-lg hover:bg-emerald-700 transition-colors duration-300 transform hover:scale-105">
+                    Book Your Free Strategy Session
+                </a>
+                <p class="mt-4 text-sm text-gray-500">100% Confidential & No Obligation.</p>
+            </div>
+            <!-- Spanish Content -->
+            <div class="lang-es hidden">
+                <h1 class="text-4xl md:text-6xl font-black text-gray-900 leading-tight max-w-4xl mx-auto">
+                    Deje de esperar a los pacientes locales. <br class="hidden md:block"> Llene su consultorio con pacientes de alto valor de California.
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 mt-6 max-w-3xl mx-auto">
+                    Implementamos un sistema de marketing especializado para dentistas en Tijuana que atrae un flujo constante de pacientes de EE.UU. buscando tratamientos de alto valor como implantes, carillas y ortodoncia.
+                </p>
+                <a href="https://calendly.com/prometheus-ia/30min" target="_blank" class="mt-10 inline-block bg-emerald-600 text-white font-bold py-4 px-10 rounded-lg text-lg hover:bg-emerald-700 transition-colors duration-300 transform hover:scale-105">
+                    Agendar Sesión Estratégica Gratuita
+                </a>
+                <p class="mt-4 text-sm text-gray-500">100% Confidencial y sin compromiso.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pain Points Section -->
+    <section id="su-realidad" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="lang-en">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900">Does This Reality Seem Familiar?</h2>
+                <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
+                    You are an excellent dentist with a great practice, but your chairs are often empty and you're missing out on the lucrative medical tourism market.
+                </p>
+            </div>
+            <div class="lang-es hidden">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900">¿Esta realidad le parece familiar?</h2>
+                <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
+                    Usted es una excelente dentista con un gran consultorio, pero sus sillas suelen estar vacías y está perdiendo el lucrativo mercado del turismo médico.
+                </p>
+            </div>
+            
+            <div class="mt-12 grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Empty Chairs -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200 text-center">
+                    <svg class="w-12 h-12 text-emerald-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-900 lang-en">Empty Chairs</h3>
+                    <h3 class="mt-4 text-xl font-bold text-gray-900 lang-es hidden">Agenda Vacía</h3>
+                    <p class="mt-2 text-gray-600 lang-en">The uncertainty of not knowing if you'll have patients tomorrow is your biggest stress. Your income is inconsistent and unpredictable.</p>
+                    <p class="mt-2 text-gray-600 lang-es hidden">La incertidumbre de no saber si mañana tendrá pacientes es su mayor estrés. Sus ingresos son inconsistentes e impredecibles.</p>
+                </div>
+                <!-- Card 2: Fierce Competition -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200 text-center">
+                    <svg class="w-12 h-12 text-emerald-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-900 lang-en">Fierce Competition</h3>
+                    <h3 class="mt-4 text-xl font-bold text-gray-900 lang-es hidden">Competencia Feroz</h3>
+                    <p class="mt-2 text-gray-600 lang-en">You see the big dental clinics full of American patients and you don't know how to compete for a piece of that profitable market.</p>
+                    <p class="mt-2 text-gray-600 lang-es hidden">Ve cómo las grandes clínicas dentales se llenan de pacientes de EE.UU. y no sabe cómo competir por una parte de ese rentable mercado.</p>
+                </div>
+                <!-- Card 3: Online Invisibility -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200 text-center">
+                    <svg class="w-12 h-12 text-emerald-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l-2.5 2.5"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-900 lang-en">Online Invisibility</h3>
+                    <h3 class="mt-4 text-xl font-bold text-gray-900 lang-es hidden">Invisibilidad Online</h3>
+                    <p class="mt-2 text-gray-600 lang-en">When an American searches "dental implants in Tijuana" on Google, your practice simply doesn't exist. You are invisible to your ideal patient.</p>
+                    <p class="mt-2 text-gray-600 lang-es hidden">Cuando un estadounidense busca "implantes dentales en Tijuana" en Google, su consultorio simplemente no existe. Es invisible para su paciente ideal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solucion" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="flex justify-center">
+                 <img src="https://placehold.co/600x700/EBF4FF/059669?text=Modern+Dental+Clinic" alt="Imagen de un consultorio dental moderno y limpio" class="rounded-xl shadow-2xl">
+            </div>
+            <div>
+                <div class="lang-en">
+                    <span class="text-emerald-600 font-semibold">THE SOLUTION</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Our "California Patient Magnet" System</h2>
+                    <p class="text-lg text-gray-600 mt-4">
+                        We turn your small practice into a medical tourism destination. We don't just find you patients; we find you the RIGHT patients.
+                    </p>
+                </div>
+                <div class="lang-es hidden">
+                    <span class="text-emerald-600 font-semibold">LA SOLUCIÓN</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Nuestro Sistema "Imán de Pacientes de California"</h2>
+                    <p class="text-lg text-gray-600 mt-4">
+                        Convertimos su pequeño consultorio en un destino de turismo médico. No solo le encontramos pacientes, le encontramos los pacientes CORRECTOS.
+                    </p>
+                </div>
+                <ul class="mt-6 space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <div>
+                            <h4 class="font-bold lang-en">Google Ads for San Diego</h4>
+                            <h4 class="font-bold lang-es hidden">Campañas en Google para San Diego</h4>
+                            <p class="text-gray-600 lang-en">We put you at the top of Google when people in San Diego, Chula Vista, etc., search for "dental work in Mexico," "Tijuana dentist," and other high-value keywords.</p>
+                            <p class="text-gray-600 lang-es hidden">Lo ponemos en la cima de Google cuando la gente en San Diego, Chula Vista, etc., busca "trabajo dental en México", "dentista en Tijuana" y otras palabras clave de alto valor.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <div>
+                            <h4 class="font-bold lang-en">Showcase Ads on Facebook & Instagram</h4>
+                            <h4 class="font-bold lang-es hidden">Anuncios que Deslumbran en Facebook e Instagram</h4>
+                            <p class="text-gray-600 lang-en">We show off your best work with before-and-afters, patient testimonials, and ads that highlight the quality and savings you offer to patients in Southern California.</p>
+                            <p class="text-gray-600 lang-es hidden">Mostramos sus mejores trabajos con "antes y después", testimonios de pacientes y anuncios que resaltan la calidad y el ahorro que ofrece a los pacientes del sur de California.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <div>
+                            <h4 class="font-bold lang-en">Bilingual Landing Page for Patients</h4>
+                            <h4 class="font-bold lang-es hidden">Página Bilingüe para Pacientes</h4>
+                            <p class="text-gray-600 lang-en">We create a professional, bilingual page for YOUR patients that builds trust, answers their questions, and makes them feel safe and confident in choosing you.</p>
+                            <p class="text-gray-600 lang-es hidden">Creamos una página profesional y bilingüe para SUS pacientes que genera confianza, responde sus preguntas y los hace sentir seguros y confiados al elegirlo a usted.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Final CTA Section -->
+    <section id="cta" class="py-20 px-6 bg-emerald-700">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="lang-en">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Ready to Fill Your Agenda?</h2>
+                <p class="text-lg text-emerald-100 mt-4">
+                    Book a 30-minute strategy session. I'll analyze your practice and show you a clear plan to attract American patients. No pressure, just a clear, actionable strategy.
+                </p>
+                <p class="mt-6 text-amber-300 font-semibold">Exclusive Pilot Program Offer: Limited spots for 2 more dental practices.</p>
+                <a href="https://calendly.com/prometheus-ia/30min" target="_blank" class="mt-8 inline-block bg-white text-emerald-700 font-bold py-4 px-10 rounded-lg text-lg hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105">
+                    Secure My Free Session
+                </a>
+            </div>
+            <div class="lang-es hidden">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">¿Lista para Llenar su Agenda?</h2>
+                <p class="text-lg text-emerald-100 mt-4">
+                    Agende una sesión estratégica de 30 minutos. Analizaré su consultorio y le mostraré un plan claro para atraer pacientes de EE.UU. Sin presión, solo una estrategia clara y accionable.
+                </p>
+                <p class="mt-6 text-amber-300 font-semibold">Oferta Exclusiva para Programa Piloto: Cupo limitado a 2 consultorios más.</p>
+                <a href="https://calendly.com/prometheus-ia/30min" target="_blank" class="mt-8 inline-block bg-white text-emerald-700 font-bold py-4 px-10 rounded-lg text-lg hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105">
+                    Asegurar Mi Sesión Gratuita
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <div class="lang-en">
+            <p>&copy; 2025 Daniel Aviles | Marketing for Medical Tourism Dentists</p>
+            <p class="text-sm text-gray-400">Helping Tijuana dentists attract California patients.</p>
+        </div>
+        <div class="lang-es hidden">
+            <p>&copy; 2025 Daniel Aviles | Marketing para Dentistas de Turismo Médico</p>
+            <p class="text-sm text-gray-400">Ayudando a dentistas de Tijuana a atraer pacientes de California.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for Language Switcher
+        const langEnBtn = document.getElementById('lang-en');
+        const langEsBtn = document.getElementById('lang-es');
+        
+        const enElements = document.querySelectorAll('.lang-en');
+        const esElements = document.querySelectorAll('.lang-es');
+        const htmlTag = document.documentElement;
+
+        function setLanguage(lang) {
+            if (lang === 'es') {
+                // Switch to Spanish
+                htmlTag.lang = 'es';
+                document.title = 'Marketing para Dentistas en Tijuana | Daniel Aviles';
+                enElements.forEach(el => el.classList.add('hidden'));
+                esElements.forEach(el => el.classList.remove('hidden'));
+                langEsBtn.classList.add('active');
+                langEnBtn.classList.remove('active');
+            } else {
+                // Switch to English (default)
+                htmlTag.lang = 'en';
+                document.title = 'Marketing for Tijuana Dentists | Daniel Aviles';
+                esElements.forEach(el => el.classList.add('hidden'));
+                enElements.forEach(el => el.classList.remove('hidden'));
+                langEnBtn.classList.add('active');
+                langEsBtn.classList.remove('active');
+            }
+        }
+
+        langEnBtn.addEventListener('click', () => setLanguage('en'));
+        langEsBtn.addEventListener('click', () => setLanguage('es'));
+    </script>
+
+</body>
+</html>
